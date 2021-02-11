@@ -15,10 +15,10 @@ key = input('Введите ключ (name или account): ')
 lower_key = key.lower()
 
 try:
-    print(f'значение ключа {key} для юзера 1 = ' + user1[lower_key])
-    print(f'значение ключа {key} для юзера 2 = ' + user2[lower_key])
-    print(f'значение ключа {key} для юзера 3 = ' + user3[lower_key])
-    print(f'значение ключа {key} для юзера 4 = ' + user4[lower_key])
+    print(f'значение ключа {key} для юзера 1 = ' + str(user1[lower_key]))
+    print(f'значение ключа {key} для юзера 2 = ' + str(user2[lower_key]))
+    print(f'значение ключа {key} для юзера 3 = ' + str(user3[lower_key]))
+    print(f'значение ключа {key} для юзера 4 = ' + str(user4[lower_key]))
 except:
     print('Введенный ключ не найден')
 
